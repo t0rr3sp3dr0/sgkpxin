@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-dqpOegu73G8jpel3gV2qXRSA2j98I+oTKbNk9Am/Ai4=",
+    "hash": "sha256-nFEW8+NYDGsAMLqefVFgm1q3Zq3gzhDaaXARZyds4Tw=",
     "live": "https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409TEAMS21.xml",
-    "version": "24137.2012.2930.9819"
+    "version": "24152.405.2925.6762"
   }
 }
