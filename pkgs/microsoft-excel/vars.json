@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-XajpOs1HRBOirGNMQ0rmvmg8E77LXTL/UVZchnq5res=",
+    "hash": "sha256-vtpk7JE3mS3htVCTH1CsZOXx1A4lIykbXj9aAYPXa0s=",
     "live": "https://go.microsoft.com/fwlink/?linkid=525135",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409XCEL2019.xml",
-    "version": "16.86.24060916"
+    "version": "16.87.24071426"
   }
 }
