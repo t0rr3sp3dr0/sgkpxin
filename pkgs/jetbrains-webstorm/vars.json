@@ -1,18 +1,18 @@
 {
   "aarch64-darwin": {
-    "buildno": "233.14015.89",
-    "hash": "sha256-MLnEWvhzmRwNLcpQi0LmH6an6nUqwAu5PB5RnRXvJ3w=",
+    "buildno": "233.14475.40",
+    "hash": "sha256-6KuvUrxoqdooc4l95PGqiVEDI9ShLcMvqYsZK8Tq5bw=",
     "live": "https://download.jetbrains.com/product?code=WS&platform=macM1&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=WS&latest=true&type=release",
     "variant": "-aarch64",
-    "version": "2023.3.3"
+    "version": "2023.3.4"
   },
   "x86_64-darwin": {
-    "buildno": "233.14015.89",
-    "hash": "sha256-5Xamre2iG/9OtLt9JQuzC6Tnc+m9hyiwX6bW3G7qZ1Y=",
+    "buildno": "233.14475.40",
+    "hash": "sha256-XH8rMZS/SXEkVkZr/cWPIL1DTwASjElk2C6XRO4RTPg=",
     "live": "https://download.jetbrains.com/product?code=WS&platform=mac&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=WS&latest=true&type=release",
     "variant": "",
-    "version": "2023.3.3"
+    "version": "2023.3.4"
   }
 }
