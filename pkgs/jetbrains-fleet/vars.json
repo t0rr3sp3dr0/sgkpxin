@@ -1,18 +1,18 @@
 {
   "aarch64-darwin": {
-    "buildno": "1.36.103",
-    "hash": "sha256-+iGHUd1S7gWSbZXrBWi3BqfJTuma8qsjV2mMf+PfTsw=",
+    "buildno": "1.36.104",
+    "hash": "sha256-ZMlUI1zYQYb0VBw8CmU2uDhZDQBBDd2X49baKEzXOA0=",
     "live": "https://download.jetbrains.com/product?code=FL&platform=macos_aarch64&release.type=preview",
     "meta": "https://data.services.jetbrains.com/products/releases?code=FL&latest=true&type=preview",
     "variant": "aarch64",
-    "version": "1.36.103"
+    "version": "1.36.104"
   },
   "x86_64-darwin": {
-    "buildno": "1.36.103",
-    "hash": "sha256-TKOwPwRuvnyMQb6bOPrMkTu0zc8svRo+QQQqtk9LwwU=",
+    "buildno": "1.36.104",
+    "hash": "sha256-KA4sMpHfIYKaQOAWUPQnH5u+wh+IiQRUcKVdf2VO7vU=",
     "live": "https://download.jetbrains.com/product?code=FL&platform=macos_x64&release.type=preview",
     "meta": "https://data.services.jetbrains.com/products/releases?code=FL&latest=true&type=preview",
     "variant": "x64",
-    "version": "1.36.103"
+    "version": "1.36.104"
   }
 }
