@@ -1,6 +1,6 @@
 {
   "aarch64-darwin": {
-    "1": "HEAD",
+    "1": "042d8adbcba061cc37be490c81da38e811132e9d",
     "1.30": "dfa899b75a559048be09838ec1e367cec35865d1",
     "1.30.83": "dfa899b75a559048be09838ec1e367cec35865d1",
     "1.31": "4b059ef0abef0aaa1fc14523fe488243e21dfc06",
@@ -41,11 +41,11 @@
     "1.43": "5a75fd4ee2fddd85c761ea919c4fddd28f74a87e",
     "1.43.142": "5b498c19d34aec7da96c86143bc7732996a4a7fe",
     "1.43.148": "5a75fd4ee2fddd85c761ea919c4fddd28f74a87e",
-    "1.44": "HEAD",
-    "1.44.148": "HEAD"
+    "1.44": "042d8adbcba061cc37be490c81da38e811132e9d",
+    "1.44.148": "042d8adbcba061cc37be490c81da38e811132e9d"
   },
   "x86_64-darwin": {
-    "1": "HEAD",
+    "1": "042d8adbcba061cc37be490c81da38e811132e9d",
     "1.30": "dfa899b75a559048be09838ec1e367cec35865d1",
     "1.30.83": "dfa899b75a559048be09838ec1e367cec35865d1",
     "1.31": "4b059ef0abef0aaa1fc14523fe488243e21dfc06",
@@ -86,7 +86,7 @@
     "1.43": "5a75fd4ee2fddd85c761ea919c4fddd28f74a87e",
     "1.43.142": "5b498c19d34aec7da96c86143bc7732996a4a7fe",
     "1.43.148": "5a75fd4ee2fddd85c761ea919c4fddd28f74a87e",
-    "1.44": "HEAD",
-    "1.44.148": "HEAD"
+    "1.44": "042d8adbcba061cc37be490c81da38e811132e9d",
+    "1.44.148": "042d8adbcba061cc37be490c81da38e811132e9d"
   }
 }
