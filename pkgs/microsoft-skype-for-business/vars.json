@@ -1,9 +1,9 @@
 {
   "x86_64-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-gfSEhC6Go5yfM6vE01tOfbuHGJyjxCSmOW4V2W6i29U=",
+    "hash": "sha256-Zwm30v5R0spe0Qi70AuYT2/hx4Ed0YQaNAZAwBXx6/I=",
     "live": "https://go.microsoft.com/fwlink/?linkid=832978",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSFB16.xml",
-    "version": "16.30.32"
+    "version": "16.31.11"
   }
 }
