@@ -1,18 +1,18 @@
 {
   "aarch64-darwin": {
-    "buildno": "233.13763.11",
-    "hash": "sha256-hPsJk4U53C9+z72b4gqRbPVC/E4LaaMZ0X5BgOTWokQ=",
+    "buildno": "233.14475.56",
+    "hash": "sha256-WNvxYo9ZlQ1Avk7XMZnOku82vmc1gj2VZhNd3qFsFxg=",
     "live": "https://download.jetbrains.com/product?code=PCP&platform=macM1&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=PCP&latest=true&type=release",
     "variant": "-aarch64",
-    "version": "2023.3.3"
+    "version": "2023.3.4"
   },
   "x86_64-darwin": {
-    "buildno": "233.13763.11",
-    "hash": "sha256-yGtuJ5rGqCznnhh8lrZxwbO7tswsfFaGRUcFMWs5jpw=",
+    "buildno": "233.14475.56",
+    "hash": "sha256-WVErvmGpMy8C5400uFqyVjtdrC+piCUZ7SfPy8zvXcI=",
     "live": "https://download.jetbrains.com/product?code=PCP&platform=mac&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=PCP&latest=true&type=release",
     "variant": "",
-    "version": "2023.3.3"
+    "version": "2023.3.4"
   }
 }
