@@ -1,12 +1,12 @@
 {
   "aarch64-darwin": {
-    "2024": "9d678fe229def42de53cd471ce9d40a5a770da35",
-    "2024.2": "9d678fe229def42de53cd471ce9d40a5a770da35",
-    "2024.2.2": "9d678fe229def42de53cd471ce9d40a5a770da35"
+    "2024": "HEAD",
+    "2024.2": "HEAD",
+    "2024.2.3": "HEAD"
   },
   "x86_64-darwin": {
-    "2024": "9d678fe229def42de53cd471ce9d40a5a770da35",
-    "2024.2": "9d678fe229def42de53cd471ce9d40a5a770da35",
-    "2024.2.2": "9d678fe229def42de53cd471ce9d40a5a770da35"
+    "2024": "HEAD",
+    "2024.2": "HEAD",
+    "2024.2.3": "HEAD"
   }
 }
