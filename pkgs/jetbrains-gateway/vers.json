@@ -4,17 +4,19 @@
     "2023.3": "d7ff8a4fb59339259fbf45e2cd52b56f12457e46",
     "2023.3.3": "bf6e85a3e144a519ac6478cc08396058dfcf62e9",
     "2023.3.4": "d7ff8a4fb59339259fbf45e2cd52b56f12457e46",
-    "2024": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec",
-    "2024.1": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec",
-    "2024.1.1": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec"
+    "2024": "HEAD",
+    "2024.1": "HEAD",
+    "2024.1.1": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec",
+    "2024.1.2": "HEAD"
   },
   "x86_64-darwin": {
     "2023": "d7ff8a4fb59339259fbf45e2cd52b56f12457e46",
     "2023.3": "d7ff8a4fb59339259fbf45e2cd52b56f12457e46",
     "2023.3.3": "bf6e85a3e144a519ac6478cc08396058dfcf62e9",
     "2023.3.4": "d7ff8a4fb59339259fbf45e2cd52b56f12457e46",
-    "2024": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec",
-    "2024.1": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec",
-    "2024.1.1": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec"
+    "2024": "HEAD",
+    "2024.1": "HEAD",
+    "2024.1.1": "1192f4b886e6a9ea0e4c86f4eae644eecf7298ec",
+    "2024.1.2": "HEAD"
   }
 }
