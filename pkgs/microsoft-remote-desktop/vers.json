@@ -1,16 +1,18 @@
 {
   "aarch64-darwin": {
-    "10": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a",
-    "10.9": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a",
+    "10": "HEAD",
+    "10.9": "HEAD",
     "10.9.6": "f97e3be27c00304fa02b8bf7b5153c2d6ddee721",
     "10.9.7": "d1c7a5b896c3d9f3325b32a97e156060ffd9d7d8",
-    "10.9.8": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a"
+    "10.9.8": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a",
+    "10.9.9": "HEAD"
   },
   "x86_64-darwin": {
-    "10": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a",
-    "10.9": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a",
+    "10": "HEAD",
+    "10.9": "HEAD",
     "10.9.6": "f97e3be27c00304fa02b8bf7b5153c2d6ddee721",
     "10.9.7": "d1c7a5b896c3d9f3325b32a97e156060ffd9d7d8",
-    "10.9.8": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a"
+    "10.9.8": "af705b1eef533aa8c9ad2be2f0d615f35a980e1a",
+    "10.9.9": "HEAD"
   }
 }
