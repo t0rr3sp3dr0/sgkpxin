@@ -162,14 +162,17 @@
     "24.244": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
     "24.244.1204": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
     "24.244.1204.0003": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
-    "25": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
+    "25": "HEAD",
     "25.004": "9f11507d6c8f9c1c6a0c22940ec4899c65d2d1f7",
     "25.004.0109": "9f11507d6c8f9c1c6a0c22940ec4899c65d2d1f7",
     "25.004.0109.0002": "9f11507d6c8f9c1c6a0c22940ec4899c65d2d1f7",
     "25.005": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
     "25.005.0112": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
     "25.005.0112.0002": "a5327083aad10793eacfcba0166b45d8f8554404",
-    "25.005.0112.0003": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef"
+    "25.005.0112.0003": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
+    "25.010": "HEAD",
+    "25.010.0119": "HEAD",
+    "25.010.0119.0002": "HEAD"
   },
   "x86_64-darwin": {
     "24": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
@@ -334,13 +337,16 @@
     "24.244": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
     "24.244.1204": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
     "24.244.1204.0003": "0cf1b84cda165d14f8a0d41680a3ac894a28dcd0",
-    "25": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
+    "25": "HEAD",
     "25.004": "9f11507d6c8f9c1c6a0c22940ec4899c65d2d1f7",
     "25.004.0109": "9f11507d6c8f9c1c6a0c22940ec4899c65d2d1f7",
     "25.004.0109.0002": "9f11507d6c8f9c1c6a0c22940ec4899c65d2d1f7",
     "25.005": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
     "25.005.0112": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
     "25.005.0112.0002": "a5327083aad10793eacfcba0166b45d8f8554404",
-    "25.005.0112.0003": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef"
+    "25.005.0112.0003": "8ec4f0a0e7aceacfe4ccc7a1c8df7f6260ede0ef",
+    "25.010": "HEAD",
+    "25.010.0119": "HEAD",
+    "25.010.0119.0002": "HEAD"
   }
 }
