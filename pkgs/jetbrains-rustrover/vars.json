@@ -1,15 +1,15 @@
 {
   "aarch64-darwin": {
-    "buildno": "251.18673.38",
-    "hash": "sha256-dmOhUMZwv5QgdTRwcrKPupYVTQSn24PwtdGgvfXHNZU=",
+    "buildno": "251.20015.38",
+    "hash": "sha256-8CJkH3rmj+KkscZbR2suULumL+NSjWdEvvCYCUfZTiU=",
     "live": "https://download.jetbrains.com/product?code=RR&platform=macM1&release.type=eap",
     "meta": "https://data.services.jetbrains.com/products/releases?code=RR&latest=true&type=eap",
     "variant": "-aarch64",
     "version": "2025.1"
   },
   "x86_64-darwin": {
-    "buildno": "251.18673.38",
-    "hash": "sha256-aOtixGAS6wrEXY9zTZ666QNVR2i4vsx35uji0H5Ooos=",
+    "buildno": "251.20015.38",
+    "hash": "sha256-GNWqjJx/jYEkttr/vEXl4WmMYOSxLKitmca16TBjczY=",
     "live": "https://download.jetbrains.com/product?code=RR&platform=mac&release.type=eap",
     "meta": "https://data.services.jetbrains.com/products/releases?code=RR&latest=true&type=eap",
     "variant": "",
