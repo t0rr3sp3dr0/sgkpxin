@@ -1,16 +1,16 @@
 {
   "universal-darwin": {
-    "hash": "sha256-7DqSrQjwwf7LyeejiyLmV7XaKxGRoVl5J6SGUm0ea78=",
+    "hash": "sha256-wwwUKbxV+CBVOOqu/BmvQhzZBWPECk1igfDODVQiWMY=",
     "live": "https://go.microsoft.com/fwlink/?linkid=823060",
     "meta": "https://g.live.com/0USSDMC_W5T/StandaloneProductManifest",
     "variant": "Universal",
-    "version": "24.045.0303.0003"
+    "version": "24.047.0305.0003"
   },
   "x86_64-darwin": {
-    "hash": "sha256-qZqaxbfE3S1dioF8m4zsLfAP1ZoSBT9GGsUd3iU7/7E=",
+    "hash": "sha256-J3KksjUvqx4nCjPTTDNQorfc5qSpR2KuxajNSWv659Q=",
     "live": "about:blank#unknown-link",
     "meta": "https://g.live.com/0USSDMC_W5T/StandaloneProductManifest",
     "variant": "",
-    "version": "24.045.0303.0003"
+    "version": "24.047.0305.0003"
   }
 }
