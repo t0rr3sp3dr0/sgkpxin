@@ -1,16 +1,16 @@
 {
   "universal-darwin": {
     "guid": "03adf619-38c6-4249-95ff-4a01c0ffc962",
-    "hash": "sha256-PnVzC16uR99P/zCSSove+KIGNoApknnheedZGYp7fJk=",
+    "hash": "sha256-tIEBndbPqlT1Bph3ExYi46MDNar9umtaapkgLYuR10M=",
     "live": "https://go.microsoft.com/fwlink/?linkid=2099618",
     "meta": "https://officecdnmac.microsoft.com/pr/03adf619-38c6-4249-95ff-4a01c0ffc962/MacAutoupdate/0409EDBT01.xml",
-    "version": "127.0.2651.15"
+    "version": "127.0.2651.31"
   },
   "x86_64-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-/RNicQapMScLeSI8euUgHdxHAQgGm6xSfxSk61Zfptw=",
+    "hash": "sha256-GNDjUNV/RvukLGWal4cj6A9kuBVUrAxxSBBMKA6S/VE=",
     "live": "https://go.microsoft.com/fwlink/?linkid=2069439",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409EDBT01.xml",
-    "version": "127.0.2651.15"
+    "version": "127.0.2651.31"
   }
 }
