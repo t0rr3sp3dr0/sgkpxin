@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-vGc9IrwN9u3oKEy9IP5exZlpn/MSYaAVZdVHX2uxNRE=",
+    "hash": "sha256-IEag5B9R9iDG+RBuB3dGzo8YXb4eU+ARjghtwS9qyC0=",
     "live": "https://go.microsoft.com/fwlink/?linkid=525134",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSWD2019.xml",
-    "version": "16.91.24111020"
+    "version": "16.92.24120731"
   }
 }
