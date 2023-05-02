@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "FL",
+    "plat": "macos_aarch64",
+    "type": "preview",
+    "~": {
+      "variant": "aarch64"
+    }
+  },
+  "x86_64-darwin": {
+    "code": "FL",
+    "plat": "macos_x64",
+    "type": "preview",
+    "~": {
+      "variant": "x64"
+    }
+  }
+}

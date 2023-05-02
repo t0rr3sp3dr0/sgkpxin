@@ -1,0 +1,16 @@
+{
+  "~": [
+    {
+      "x86_64-darwin": {
+        "chan": "Current",
+        "prod": "SUIT15"
+      }
+    },
+    {
+      "x86_64-darwin": {
+        "chan": "Current",
+        "prod": "MSOf14"
+      }
+    }
+  ]
+}

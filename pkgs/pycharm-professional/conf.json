@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "PCP",
+    "plat": "macM1",
+    "type": "release",
+    "~": {
+      "variant": "-aarch64"
+    }
+  },
+  "x86_64-darwin": {
+    "code": "PCP",
+    "plat": "mac",
+    "type": "release",
+    "~": {
+      "variant": ""
+    }
+  }
+}

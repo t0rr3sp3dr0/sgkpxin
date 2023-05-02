@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "buildno": "231.9011.34",
+    "hash": "sha256-8mlCJyMQXenCjGHJX3x0zESBAyq6+YCs5+T9LX8A3KU=",
+    "live": "https://download.jetbrains.com/product?code=IIC&platform=macM1&release.type=release",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
+    "variant": "-aarch64",
+    "version": "2023.1.2"
+  },
+  "x86_64-darwin": {
+    "buildno": "231.9011.34",
+    "hash": "sha256-0xPzMIeI4qZkbGfEwAr79N2EiIkAneMrk+Hvi/gKUps=",
+    "live": "https://download.jetbrains.com/product?code=IIC&platform=mac&release.type=release",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
+    "variant": "",
+    "version": "2023.1.2"
+  }
+}

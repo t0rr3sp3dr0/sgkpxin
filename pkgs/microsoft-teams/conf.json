@@ -1,0 +1,15 @@
+{
+  "universal-darwin": {
+    "chan": "Current",
+    "live": "https://go.microsoft.com/fwlink/?linkid=869428",
+    "prod": "TEAMS10"
+  },
+  "~": [
+    {
+      "x86_64-darwin": {
+        "chan": "Current",
+        "prod": "TEAM01"
+      }
+    }
+  ]
+}

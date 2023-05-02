@@ -1,0 +1,7 @@
+{
+  "universal-darwin": {
+    "chan": "Current",
+    "live": "https://go.microsoft.com/fwlink/?linkid=868963",
+    "prod": "MSRD10"
+  }
+}

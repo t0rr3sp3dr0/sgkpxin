@@ -1,0 +1,22 @@
+{
+  "universal-darwin": {
+    "variant": "Universal",
+    "~": {
+      "live": "https://go.microsoft.com/fwlink/?linkid=823060"
+    }
+  },
+  "x86_64-darwin": {
+    "variant": "",
+    "~": {
+      "live": "about:blank#unknown-link"
+    }
+  },
+  "~": [
+    {
+      "x86_64-darwin": {
+        "chan": "Current",
+        "prod": "ONDR18"
+      }
+    }
+  ]
+}

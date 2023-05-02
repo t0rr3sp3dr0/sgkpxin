@@ -1,0 +1,12 @@
+{
+  "universal-darwin": {
+    "chan": "Internal",
+    "live": "https://go.microsoft.com/fwlink/?linkid=2093504",
+    "prod": "EDGE01"
+  },
+  "x86_64-darwin": {
+    "chan": "Current",
+    "live": "https://go.microsoft.com/fwlink/?linkid=2069148",
+    "prod": "EDGE01"
+  }
+}

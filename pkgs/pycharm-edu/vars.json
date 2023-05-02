@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "buildno": "222.4345.35",
+    "hash": "sha256-/CUHQwjrV060Npw6dsXSYlZXzoVNbhqANvit6WfV/V4=",
+    "live": "https://download.jetbrains.com/product?code=PCE&platform=macM1&release.type=release",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=PCE&latest=true&type=release",
+    "variant": "-aarch64",
+    "version": "2022.2.2"
+  },
+  "x86_64-darwin": {
+    "buildno": "222.4345.35",
+    "hash": "sha256-aQLTMBdLJYzOE1M0P9S6LM17baGzc20xp8w9puQak/Q=",
+    "live": "https://download.jetbrains.com/product?code=PCE&platform=mac&release.type=release",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=PCE&latest=true&type=release",
+    "variant": "",
+    "version": "2022.2.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "DS",
+    "plat": "macM1",
+    "type": "release",
+    "~": {
+      "variant": "-aarch64"
+    }
+  },
+  "x86_64-darwin": {
+    "code": "DS",
+    "plat": "mac",
+    "type": "release",
+    "~": {
+      "variant": ""
+    }
+  }
+}

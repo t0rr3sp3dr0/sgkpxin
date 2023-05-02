@@ -1,0 +1,9 @@
+{
+  "x86_64-darwin": {
+    "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
+    "hash": "sha256-JKiVxOZQTYGKn4a3BOOlL460MRu2+0s+r8JuLetyhg0=",
+    "live": "https://go.microsoft.com/fwlink/?linkid=832978",
+    "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSFB16.xml",
+    "version": "16.29.95"
+  }
+}

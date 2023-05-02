@@ -1,0 +1,16 @@
+{
+  "aarch64-darwin": {
+    "generic": "VisualStudioMacArm",
+    "~": {
+      "live": "about:blank#unknown-link",
+      "variant": "arm64"
+    }
+  },
+  "x86_64-darwin": {
+    "generic": "VisualStudioMac",
+    "~": {
+      "live": "about:blank#unknown-link",
+      "variant": "x64"
+    }
+  }
+}

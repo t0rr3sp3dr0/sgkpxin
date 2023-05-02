@@ -1,0 +1,20 @@
+{
+  "aarch64-darwin": {
+    "guid": "ed3a76bd92fcbfe800b830b2739774e0",
+    "hash": "sha256-zzNq8vC5PUk0q6vy1oS2HaFr2PqaFrZ1KRhy7yawPX0=",
+    "live": "about:blank#unknown-link",
+    "meta": "https://aka.ms/vsmac/manifest/17-stable",
+    "uuid": "91b81b8c-74ac-4710-a93f-49bf4553845e",
+    "variant": "arm64",
+    "version": "17.5.6.3"
+  },
+  "x86_64-darwin": {
+    "guid": "e5a8ce0b143da17fa397b257562e6033",
+    "hash": "sha256-KW32cgVHc/vuJ4Toi0YUZJZr2As67chMD1yOd92yITw=",
+    "live": "about:blank#unknown-link",
+    "meta": "https://aka.ms/vsmac/manifest/17-stable",
+    "uuid": "91b81b8c-74ac-4710-a93f-49bf4553845e",
+    "variant": "x64",
+    "version": "17.5.6.3"
+  }
+}

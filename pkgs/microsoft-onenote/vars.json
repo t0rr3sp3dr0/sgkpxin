@@ -1,0 +1,9 @@
+{
+  "universal-darwin": {
+    "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
+    "hash": "sha256-3uRXK3h+EDILexHaaFsYHDxJZ3XQfvtt8P4I3TtFwyE=",
+    "live": "https://go.microsoft.com/fwlink/?linkid=820886",
+    "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409ONMC2019.xml",
+    "version": "16.73.23051401"
+  }
+}

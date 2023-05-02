@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "buildno": "1.19.95",
+    "hash": "sha256-ZBK/gCsU9E5SaoakqEwHr4aQCEoQiEmYYAmu3PtWbis=",
+    "live": "https://download.jetbrains.com/product?code=FL&platform=macos_aarch64&release.type=preview",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=FL&latest=true&type=preview",
+    "variant": "aarch64",
+    "version": "1.19.95"
+  },
+  "x86_64-darwin": {
+    "buildno": "1.19.95",
+    "hash": "sha256-xQF2z0iKCgJOirb1V44Oq5hXh/Mk9rpQK7ngh74EBNo=",
+    "live": "https://download.jetbrains.com/product?code=FL&platform=macos_x64&release.type=preview",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=FL&latest=true&type=preview",
+    "variant": "x64",
+    "version": "1.19.95"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "IIC",
+    "plat": "macM1",
+    "type": "release",
+    "~": {
+      "variant": "-aarch64"
+    }
+  },
+  "x86_64-darwin": {
+    "code": "IIC",
+    "plat": "mac",
+    "type": "release",
+    "~": {
+      "variant": ""
+    }
+  }
+}

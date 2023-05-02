@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "QA",
+    "plat": "macM1",
+    "type": "preview",
+    "~": {
+      "variant": "-aarch64"
+    }
+  },
+  "x86_64-darwin": {
+    "code": "QA",
+    "plat": "mac",
+    "type": "preview",
+    "~": {
+      "variant": ""
+    }
+  }
+}

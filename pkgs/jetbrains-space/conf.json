@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "SPA",
+    "plat": "mac",
+    "type": "release",
+    "~": {
+      "variant": ""
+    }
+  },
+  "x86_64-darwin": {
+    "code": "SPA",
+    "plat": "mac",
+    "type": "release",
+    "~": {
+      "variant": ""
+    }
+  }
+}
