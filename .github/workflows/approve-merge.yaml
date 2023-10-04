@@ -1,0 +1,18 @@
+name: approve-merge
+on:
+  pull_request:
+    branches:
+      - master
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.id == vars.NIXINTOSH_BOT_USER_ID
+    steps:
+      - name: make approve-merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          make -C ./hack/workflows/ approve-merge PR_N='${{ github.event.pull_request.number }}'
