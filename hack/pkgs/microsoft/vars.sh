@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
-set -ETeux -o pipefail
-shopt -s inherit_errexit 2> /dev/null || trap '<<< ${__:=${?#0}} ; ${__:+exit ${__}}' DEBUG
+#!/bin/bash
+set -ETeux -o 'pipefail'
+shopt -s 'inherit_errexit' 2> /dev/null || trap '<<< ${__:=${?#0}} ; ${__:+exit ${__}}' DEBUG
 
 function cat2sha {
 	local CAT2SHA="$(which cat2sha || true)"
