@@ -7,16 +7,21 @@ arch.json: arch.nix
 attr.json: attr.nix
 	nix eval --show-trace --write-to ./attr.json -f ./attr.nix
 
+bump:
+	$(MAKE) -BC ../pkgs/ all
+	./bump.sh
+.PHONY: bump
+
 ATTR ?= 
 PKGS ?= import <nixpkgs> {}
-check:
+test:
 	nix-build ../../. --show-trace --arg pkgs '$(PKGS)' -A '$(ATTR)'
-.PHONY: check
+.PHONY: test
 
-check-aarch64:
-	$(MAKE) check ATTR='$(ATTR)' PKGS='( import <nixpkgs> { } ).pkgsCross.aarch64-darwin'
-.PHONY: check-aarch64
+test-aarch64:
+	$(MAKE) test ATTR='$(ATTR)' PKGS='( import <nixpkgs> { } ).pkgsCross.aarch64-darwin'
+.PHONY: test-aarch64
 
-check-x86_64:
-	$(MAKE) check ATTR='$(ATTR)' PKGS='( import <nixpkgs> { } ).pkgsx86_64Darwin'
-.PHONY: check-x86_64
+test-x86_64:
+	$(MAKE) test ATTR='$(ATTR)' PKGS='( import <nixpkgs> { } ).pkgsx86_64Darwin'
+.PHONY: test-x86_64

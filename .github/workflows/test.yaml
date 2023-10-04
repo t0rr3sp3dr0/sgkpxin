@@ -1,5 +1,6 @@
-name: Continuous
+name: test
 on:
+  pull_request: {}
   push: {}
   workflow_dispatch: {}
 permissions:
@@ -12,11 +13,11 @@ jobs:
       attr: ${{ steps.attr.outputs.json }}
     steps:
       - name: checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: install nix
-        uses: cachix/install-nix-action@v20
+        uses: cachix/install-nix-action@v24
         with:
-          nix_path: nixpkgs=channel:nixos-unstable
+          nix_path: nixpkgs=channel:nixpkgs-22.11-darwin
       - name: compute arch
         id: arch
         run: |
@@ -27,7 +28,7 @@ jobs:
         run: |
           make -C ./hack/workflows/ attr.json
           echo "json=$(cat ./hack/workflows/attr.json)" >> "${GITHUB_OUTPUT}"
-  check:
+  main:
     runs-on: macos-latest
     needs: matrix
     strategy:
@@ -39,10 +40,10 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v3
       - name: install nix
-        uses: cachix/install-nix-action@v20
+        uses: cachix/install-nix-action@v24
         with:
-          nix_path: nixpkgs=channel:nixos-unstable
-      - name: make check
+          nix_path: nixpkgs=channel:nixpkgs-22.11-darwin
+      - name: make test
         env:
           NIXPKGS_ALLOW_UNFREE: '1'
-        run: make -C ./hack/workflows/ check-'${{ matrix.arch }}' ATTR='${{ matrix.attr }}'
+        run: make -C ./hack/workflows/ test-'${{ matrix.arch }}' ATTR='${{ matrix.attr }}'

@@ -3,7 +3,7 @@
 let
   toAttr = package: {
     name = package;
-    value = pkgs.callPackage ./pkgs/${package} { };
+    value = pkgs.callPackage ./pkgs/${package} { stdenv = pkgs.stdenvNoCC; };
   };
 
   mkPackages = packages:
