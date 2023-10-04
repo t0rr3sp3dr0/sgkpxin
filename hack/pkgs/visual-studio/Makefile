@@ -4,7 +4,7 @@ all: $(addprefix ../../../pkgs/,$(addsuffix /vars.json,$(ALL)))
 .PHONY: all
 
 ../../../pkgs/%/conf.json:
-	cat <<< "$$(jq -S . '$@')" > '$@'
+	CONF='$@' ./conf.sh
 
 ../../../pkgs/%/vars.json: ../../../pkgs/%/conf.json
 	CONF='$<' VARS='$@' ./vars.sh

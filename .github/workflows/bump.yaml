@@ -1,0 +1,43 @@
+name: bump
+on:
+  schedule:
+    - cron: 0 0 * * *
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    outputs:
+      arch: ${{ steps.arch.outputs.json }}
+      attr: ${{ steps.attr.outputs.json }}
+    steps:
+      - id: app-token
+        name: app token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.NIXINTOSH_BOT_APP_ID }}
+          private-key: ${{ secrets.NIXINTOSH_BOT_PRIVATE_KEY }}
+      - name: checkout repository
+        uses: actions/checkout@v4
+      - name: install nix
+        uses: cachix/install-nix-action@v24
+        with:
+          install_url: https://releases.nixos.org/nix/nix-2.18.1/install
+          nix_path: nixpkgs=channel:nixpkgs-22.11-darwin
+      - name: config git
+        run: |
+          git config --global 'user.name' 'github-actions[bot]'
+          git config --global 'user.email' '41898282+github-actions[bot]@users.noreply.github.com'
+      - id: make-bump
+        name: make bump
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          make -C ./hack/workflows/ bump
+      - name: make approve
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          make -C ./hack/workflows/ approve PR_N='${{ steps.make-bump.outputs.pr-n }}'
