@@ -1,13 +1,40 @@
-{ pkgs ? import <nixpkgs> { } }:
+{ pkgs ? import <nixpkgs> { }
+, latestOnly ? false
+}:
 
 let
-  toAttr = package: {
-    name = package;
-    value = pkgs.callPackage ./pkgs/${package} { };
-  };
+  readOr = path: default:
+    if ( builtins.pathExists path ) then ( builtins.readFile path ) else ( default );
+
+  versAS = package:
+    builtins.fromJSON ( readOr ./pkgs/${ package }/vers.json "{}" );
+
+  pkgsAt = gitRev:
+    let
+      gitURL = "https://github.com/t0rr3sp3dr0/sgkpxin.git";
+    in
+      import ( builtins.fetchGit { url = gitURL; rev = gitRev; } ) { inherit pkgs; };
+
+  pinVer = package: ver: rev:
+    {
+      name = "${ package }_${ ver }";
+      value = ( pkgsAt rev ).${ package };
+    };
+
+  pinVerSet = package:
+    if ( latestOnly ) then ( [ ] ) else ( pkgs.lib.attrsets.mapAttrsToList ( pinVer package ) ( versAS package ) );
+
+  curVer = package:
+    {
+      name = package;
+      value = pkgs.callPackage ./pkgs/${ package } { stdenv = pkgs.stdenvNoCC; };
+    };
+
+  verSet = package:
+    [ ( curVer package ) ] ++ ( pinVerSet package );
 
   mkPackages = packages:
-    pkgs.lib.pipe packages [ ( builtins.map toAttr ) builtins.listToAttrs ];
+    pkgs.lib.pipe packages [ ( builtins.concatMap verSet ) builtins.listToAttrs ];
 in
 
 mkPackages [
