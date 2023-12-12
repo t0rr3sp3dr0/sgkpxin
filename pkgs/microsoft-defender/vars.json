@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-BnG0lpOaPG2LDlMr5QVgu0lP+XdPb+Iy3rEYAReoRZo=",
+    "hash": "sha256-jkajpVCXq24QmJS9QVruTGaJUuyG45DlsSjArlegI0U=",
     "live": "https://go.microsoft.com/fwlink/?linkid=2097502",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409WDAV00.xml",
-    "version": "101.98.71"
+    "version": "101.23092.0010"
   }
 }
