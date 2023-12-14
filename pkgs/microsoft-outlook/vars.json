@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-sBmkU9Z7bRViRsoC+3CmmOYsb8Y/H+ZnyZG7b9bafa4=",
+    "hash": "sha256-1xZajBTWEuyIz2Rw7fjk0CR4zaifBkKNvJbaFt11BSo=",
     "live": "https://go.microsoft.com/fwlink/?linkid=525137",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409OPIM2019.xml",
-    "version": "16.73.23052700"
+    "version": "16.80.23121017"
   }
 }
