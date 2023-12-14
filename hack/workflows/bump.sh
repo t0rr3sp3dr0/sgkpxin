@@ -5,11 +5,14 @@ shopt -s 'inherit_errexit' 2> /dev/null || trap '<<< ${__:=${?#0}} ; ${__:+exit 
 make -BC ./ attr.json
 make -BC ../pkgs/ all
 
-REMOTE="$(git rev-parse --symbolic-full-name '@{u}' | cut -d '/' -f '3')"
+REMOTE="$(git rev-parse --symbolic-full-name '@{u}' || git remote)"
+REMOTE="$(<<< "${REMOTE}" | cut -d '/' -f '3' | head -n '1')"
 
 git remote set-head "${REMOTE}" -a
 
-PKGS=( $(git status --porcelain='v1' | sed -En 's|^...pkgs/([^/]+)/.+$|\1|p' | sort | uniq) )
+STATUS="$(git status --porcelain='v1')"
+
+PKGS=( $(<<< "${STATUS}" | sed -En 's|^...pkgs/([^/]+)/.+$|\1|p' | sort | uniq) )
 for PKG in "${PKGS[@]}"
 do
     if ! jq -e 'any(. == "'"${PKG}"'")' ./attr.json
