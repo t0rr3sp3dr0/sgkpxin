@@ -1,18 +1,18 @@
 {
   "aarch64-darwin": {
-    "buildno": "223.8836.1185",
-    "hash": "sha256-QNipKKHBcDVEyZBaP45qfQreOxcwJ4LaLtaP0dza/vk=",
+    "buildno": "232.10072.781",
+    "hash": "sha256-oZ7NihCXg+nSJgzBj0isl+UqC8AO4p31zPcRqA0XAes=",
     "live": "https://download.jetbrains.com/product?code=MPS&platform=macM1&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=MPS&latest=true&type=release",
     "variant": "-aarch64",
-    "version": "2022.3"
+    "version": "2023.2"
   },
   "x86_64-darwin": {
-    "buildno": "223.8836.1185",
-    "hash": "sha256-F8uXOvERGMJG1BRLoAcc4x/j8na+cCn2E82w+mC3Usw=",
+    "buildno": "232.10072.781",
+    "hash": "sha256-EaY1QyvqylgJ/gJTMD0HREoL/W+sKHxy57A+ep8aWeQ=",
     "live": "https://download.jetbrains.com/product?code=MPS&platform=mac&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=MPS&latest=true&type=release",
     "variant": "",
-    "version": "2022.3"
+    "version": "2023.2"
   }
 }
