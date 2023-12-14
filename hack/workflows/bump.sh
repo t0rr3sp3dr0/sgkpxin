@@ -6,13 +6,18 @@ make -BC ./ attr.json
 make -BC ../pkgs/ all
 
 REMOTE="$(git rev-parse --symbolic-full-name '@{u}' || git remote)"
-REMOTE="$(<<< "${REMOTE}" | cut -d '/' -f '3' | head -n '1')"
+REMOTE="$(cut -d '/' -f '3' <<< "${REMOTE}")"
+REMOTE="$(head -n '1' <<< "${REMOTE}")"
 
 git remote set-head "${REMOTE}" -a
 
 STATUS="$(git status --porcelain='v1')"
 
-PKGS=( $(<<< "${STATUS}" | sed -En 's|^...pkgs/([^/]+)/.+$|\1|p' | sort | uniq) )
+PKGS="$(sed -En 's|^...pkgs/([^/]+)/.+$|\1|p' <<< "${STATUS}")"
+PKGS="$(sort <<< "${PKGS}")"
+PKGS="$(uniq <<< "${PKGS}")"
+
+PKGS=( $(cat <<< "${PKGS}") )
 for PKG in "${PKGS[@]}"
 do
     if ! jq -e 'any(. == "'"${PKG}"'")' ./attr.json
@@ -59,7 +64,4 @@ do
     PR_N="$(gh pr view "${BRANCH}" --json 'number' --jq '.number')"
 
     gh pr merge "${PR_N}" -m --auto
-
-    # gh workflow run 'test.yaml' -r "refs/heads/${BRANCH}"
-    # gh workflow run 'test.yaml' -r "refs/pull/${PR_N}/merge"
 done
