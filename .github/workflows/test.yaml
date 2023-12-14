@@ -18,14 +18,14 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          filter: tree:0
       - name: install nix
         uses: cachix/install-nix-action@v24
         with:
           install_url: https://releases.nixos.org/nix/nix-2.18.1/install
           nix_path: nixpkgs=channel:nixpkgs-22.11-darwin
+      - name: fetch repository
+        run: |
+          git fetch --all --filter=tree:0
       - name: compute arch
         id: arch
         run: |
