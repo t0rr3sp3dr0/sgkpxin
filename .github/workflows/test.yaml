@@ -57,10 +57,9 @@ jobs:
           NIXPKGS_ALLOW_UNFREE: '1'
         run: |
           make -C ./hack/workflows/ test-'${{ matrix.arch }}' ATTR='${{ matrix.attr }}'
-  exit:
+  warden:
     runs-on: ubuntu-latest
     needs: main
     steps:
-      - name: exit
-        run: |
-          exit
+      - run: |
+          true

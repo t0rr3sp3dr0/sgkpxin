@@ -63,5 +63,6 @@ do
     fi
     PR_N="$(gh pr view "${BRANCH}" --json 'number' --jq '.number')"
 
+    gh pr review "${PR_N}" -a
     gh pr merge "${PR_N}" -m --auto
 done
