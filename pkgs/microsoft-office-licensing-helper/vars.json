@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-/GsQW1wqozsRoYP+Qnqkuk49+7wseIf1WPBfwAvcM1g=",
+    "hash": "sha256-LvW1AGU0wNINRsc1P0Kg3B+v99U7qJoxUcz1ECwFmQU=",
     "live": "https://go.microsoft.com/fwlink/?linkid=2181269",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409OLIC02.xml",
-    "version": "16.61.22052600"
+    "version": "16.77.23091003"
   }
 }
