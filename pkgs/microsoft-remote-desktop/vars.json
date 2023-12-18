@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-L+iHENtgCs8fe4uxSt6fRede8LxiQEWcLYLIolqPi8Q=",
+    "hash": "sha256-UXdjeIVoS0LLyWkwCDrqy8ufMgiGu1poqrTYol/uVQI=",
     "live": "https://go.microsoft.com/fwlink/?linkid=868963",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSRD10.xml",
-    "version": "10.8.3"
+    "version": "10.9.5"
   }
 }
