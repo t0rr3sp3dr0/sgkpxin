@@ -74,8 +74,8 @@ stdenv.mkDerivation rec {
 
     mv -vf './MSTeamsAudioDevice.driver' "''${out}/Library/Audio/Plug-Ins/HAL"
 
-    mv -vf './Microsoft Teams.app' "''${out}/Applications"
-    makeWrapper "''${out}/Applications/Microsoft Teams.app/Contents/MacOS/Teams" "''${out}/bin/${pname}"
+    mv -vf './Microsoft Teams classic.app' "''${out}/Applications"
+    makeWrapper "''${out}/Applications/Microsoft Teams classic.app/Contents/MacOS/Teams" "''${out}/bin/${pname}"
 
     runHook postInstall
   '';
