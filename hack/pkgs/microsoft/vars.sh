@@ -117,7 +117,7 @@ do
 	META="$(meta plist)"
 
 	case "${PROD}" in
-		'EDGE01' | 'EDBT01' | 'EDDV01' | 'EDCN01' | 'IMCP01' | 'MSRD10' | 'TEAMS10')
+		'EDGE01' | 'EDBT01' | 'EDDV01' | 'EDCN01' | 'IMCP01' | 'MSRD10' | 'TEAMS10' | 'TEAMS21')
 			LINK="${META}"
 			curl -Lfso "${TMP0}" "${LINK}"
 

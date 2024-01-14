@@ -57,9 +57,9 @@ stdenv.mkDerivation rec {
 
     xar -vxf '${src}'
 
-    zcat -vf "./MSTeamsAudioDevice.pkg/Payload" | cpio -vi
+    zcat -vf './MSTeamsAudioDevice.pkg/Payload' | cpio -vi
 
-    zcat -vf "./Teams_osx_app.pkg/Payload" | cpio -vi
+    zcat -vf './Teams_osx_app.pkg/Payload' | cpio -vi
 
     runHook postUnpack
   '';

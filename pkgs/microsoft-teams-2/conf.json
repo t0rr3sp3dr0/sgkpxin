@@ -1,0 +1,7 @@
+{
+  "universal-darwin": {
+    "chan": "Current",
+    "live": "https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg",
+    "prod": "TEAMS21"
+  }
+}
