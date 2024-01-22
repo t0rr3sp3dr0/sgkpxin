@@ -23,7 +23,7 @@ for PKG in "${PKGS[@]}"
 do
     PTH="${PKG//\#//}"
 
-    if ! jq -e 'any(. == "'"${PTH}"'")' ./attr.json
+    if ! jq -e 'any(. == "'"${PKG}"'")' ./attr.json
     then
         continue
     fi
