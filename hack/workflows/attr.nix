@@ -1,1 +1,1 @@
-builtins.toJSON ( builtins.attrNames ( import ../../. { latestOnly = true; } ) )
+builtins.toJSON ( builtins.attrNames ( import ../../. { noVersioning = true; } ) )

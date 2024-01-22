@@ -1,82 +1,8 @@
 let
+  versOf = import ../../util/versOf.nix { };
+
   platOf = package:
     ( import ../../. { } ).${ package }.meta.platforms;
-
-  indexOf' = str: sub: idx:
-    let
-      strLen = builtins.stringLength str;
-      subLen = builtins.stringLength sub;
-    in
-      if (
-        strLen < subLen + idx
-      ) then (
-        -1
-      ) else (
-        if (
-          builtins.substring idx subLen str == sub
-        ) then (
-          idx
-        ) else (
-          indexOf' str sub ( idx + 1 )
-        )
-      );
-
-  indexOf = str: sub:
-     indexOf' str sub 0;
-
-  sepsOf' = ver: comps: compsIdx:
-    if (
-      builtins.length comps < compsIdx + 1
-    ) then (
-      [ ver ]
-    ) else (
-      let
-        comp = builtins.elemAt comps compsIdx;
-        compLen = builtins.stringLength comp;
-        compIdx = indexOf ver comp;
-        verPrefix = builtins.substring 0 compIdx ver;
-        verSuffix = builtins.substring ( compIdx + compLen ) ( -1 ) ver;
-      in
-        [ verPrefix ] ++ ( sepsOf' verSuffix comps ( compsIdx + 1 ) )
-    );
-
-  sepsOf = ver: comps:
-    sepsOf' ver comps 0;
-
-  versOf' = prefix: comps: seps: idx:
-    if (
-      builtins.length seps < idx + 1
-    ) then (
-      [ ]
-    ) else (
-      let
-        sep = builtins.elemAt seps idx;
-      in
-        if (
-          builtins.length comps < idx + 1
-        ) then (
-          if (
-            sep == ""
-          ) then (
-            [ ]
-          ) else (
-            [ "${ prefix }${ sep }" ]
-          )
-        ) else (
-          let
-            comp = builtins.elemAt comps idx;
-            ver = "${ prefix }${ sep }${ comp }";
-          in
-            [ ver ] ++ ( versOf' ver comps seps ( idx + 1 ) )
-        )
-    );
-
-  versOf = ver:
-    let
-      comps = builtins.splitVersion ver;
-      seps = sepsOf ver comps;
-    in
-      versOf' "" comps seps 0;
 
   verElem = ver:
     {

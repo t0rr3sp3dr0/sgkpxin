@@ -1,46 +1,10 @@
 { pkgs ? import <nixpkgs> { }
-, latestOnly ? false
+, noVersioning ? false
+, ...
 }:
 
 let
-  stdenv = pkgs.stdenvNoCC;
-
-  readOr = path: default:
-    if ( builtins.pathExists path ) then ( builtins.readFile path ) else ( default );
-
-  versAS = package:
-    let
-      plat = stdenv.hostPlatform.system;
-      vers = builtins.fromJSON ( readOr ./pkgs/${ package }/vers.json "{}" );
-    in
-      ( vers.x86_64-darwin or { } ) // ( vers.universal-darwin or { } ) // ( vers.${ plat } or { } );
-
-  pkgsAt = gitRev:
-    let
-      gitURL = ./.;
-    in
-      import ( builtins.fetchGit { url = gitURL; rev = gitRev; } ) { inherit pkgs; inherit latestOnly; };
-
-  pinVer = package: ver: rev:
-    {
-      name = "${ package }_${ ver }";
-      value = ( pkgsAt rev ).${ package };
-    };
-
-  pinVerSet = package:
-    if ( latestOnly ) then ( [ ] ) else ( pkgs.lib.attrsets.mapAttrsToList ( pinVer package ) ( versAS package ) );
-
-  curVer = package:
-    {
-      name = package;
-      value = pkgs.callPackage ./pkgs/${ package } { inherit stdenv; };
-    };
-
-  verSet = package:
-    [ ( curVer package ) ] ++ ( pinVerSet package );
-
-  mkPackages = packages:
-    pkgs.lib.pipe packages [ ( builtins.concatMap verSet ) builtins.listToAttrs ];
+  mkPackages = import ./util/mkPackages.nix { inherit pkgs noVersioning; };
 in
 
 mkPackages [
@@ -65,18 +29,14 @@ mkPackages [
   "macfuse"
   "microsoft-365"
   # "microsoft-defender"
-  "microsoft-edge-beta"
-  "microsoft-edge-canary"
-  "microsoft-edge-dev"
-  "microsoft-edge-stable"
+  "microsoft-edge"
   "microsoft-excel"
   "microsoft-office-licensing-helper"
   "microsoft-onenote"
   "microsoft-outlook"
   "microsoft-powerpoint"
   "microsoft-remote-desktop"
-  "microsoft-teams-1"
-  "microsoft-teams-2"
+  "microsoft-teams"
   "microsoft-word"
   "mps"
   "onedrive"

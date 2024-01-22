@@ -11,33 +11,36 @@ REMOTE="$(head -n '1' <<< "${REMOTE}")"
 
 git remote set-head "${REMOTE}" -a
 
-STATUS="$(git status --porcelain='v1')"
+STATUS="$(git status --porcelain='v1' --untracked-files='all')"
 
-PKGS="$(sed -En 's|^...pkgs/([^/]+)/.+$|\1|p' <<< "${STATUS}")"
-PKGS="$(sort <<< "${PKGS}")"
-PKGS="$(uniq <<< "${PKGS}")"
+PKGS="$(sed -En 's|^...pkgs/(.+)/[^/]+$|\1|p' <<< "${STATUS}")"
+PKGS="$(tr '/' '#' <<< "${PKGS}")"
+PKGS="$(sort -r <<< "${PKGS}")"
+PKGS="$(awk '!s0[$0]++ && split($0, a0, "#") && (!s1[a0[1]]++ || a0[2])' <<< "${PKGS}")"
 
 PKGS=( $(cat <<< "${PKGS}") )
 for PKG in "${PKGS[@]}"
 do
-    if ! jq -e 'any(. == "'"${PKG}"'")' ./attr.json
+    PTH="${PKG//\#//}"
+
+    if ! jq -e 'any(. == "'"${PTH}"'")' ./attr.json
     then
         continue
     fi
 
-    BRANCH="bump/${PKG}"
+    BRANCH="bump/${PTH}"
 
     git checkout -d "refs/remotes/${REMOTE}/HEAD"
 
     TEMP="$(mktemp -d)/vers.json"
-    VERS="../../pkgs/${PKG}/vers.json"
+    VERS="../../pkgs/${PTH}/vers.json"
 
     nix eval --show-trace --write-to "${TEMP}" -f './vers.nix' <<< "${PKG}"
     jq -S '.' "${TEMP}" > "${VERS}"
 
     VER="$(jq -r 'to_entries | map({ key, value: .value | last(to_entries[] | select(.value == "HEAD").key) }) | group_by(.value) | map("\(.[0].value)@\(map(.key | sub("-darwin"; "")) | join(","))") | join(" ")' "${VERS}")"
 
-    git add -v ":/pkgs/${PKG}"
+    git add -v ":/pkgs/${PTH}"
     git commit -m "bump ${PKG} to ${VER}"
 
     HASH="$(git rev-parse 'HEAD')"
@@ -45,7 +48,7 @@ do
     sed -E 's/(": ")HEAD(")/\1'"${HASH}"'\2/g' "${VERS}" > "${TEMP}"
     jq -S '.' "${TEMP}" > "${VERS}"
 
-    git add -v ":/pkgs/${PKG}"
+    git add -v ":/pkgs/${PTH}"
     git commit -m "vers ${PKG} at ${HASH} as ${VER}"
 
     rm -fv "${TEMP}"
