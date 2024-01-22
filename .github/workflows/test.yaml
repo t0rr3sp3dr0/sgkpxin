@@ -13,8 +13,8 @@ jobs:
   matrix:
     runs-on: ubuntu-latest
     outputs:
-      arch: ${{ steps.arch.outputs.json }}
       attr: ${{ steps.attr.outputs.json }}
+      arch: ${{ steps.arch.outputs.json }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
@@ -26,24 +26,24 @@ jobs:
       - name: fetch repository
         run: |
           git fetch --all --filter=tree:0
-      - name: compute arch
-        id: arch
-        run: |
-          make -C ./hack/workflows/ arch.json
-          echo "json=$(cat ./hack/workflows/arch.json)" >> "${GITHUB_OUTPUT}"
       - name: compute attr
         id: attr
         run: |
           make -C ./hack/workflows/ attr.json
           echo "json=$(cat ./hack/workflows/attr.json)" >> "${GITHUB_OUTPUT}"
+      - name: compute arch
+        id: arch
+        run: |
+          make -C ./hack/workflows/ arch.json
+          echo "json=$(cat ./hack/workflows/arch.json)" >> "${GITHUB_OUTPUT}"
   main:
     runs-on: macos-latest
     needs: matrix
     strategy:
       fail-fast: false
       matrix:
-        arch: ${{ fromJSON(needs.matrix.outputs.arch) }}
         attr: ${{ fromJSON(needs.matrix.outputs.attr) }}
+        arch: ${{ fromJSON(needs.matrix.outputs.arch) }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
