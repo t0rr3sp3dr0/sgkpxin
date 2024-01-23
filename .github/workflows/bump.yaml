@@ -33,5 +33,7 @@ jobs:
       - name: make bump
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GIT_AUTHOR_DATE: '1970-01-01T00:00:00Z'
+          GIT_COMMITTER_DATE: '1970-01-01T00:00:00Z'
         run: |
           make -C ./hack/workflows/ bump
