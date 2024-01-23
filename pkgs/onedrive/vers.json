@@ -4,19 +4,25 @@
     "23.250": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
     "23.250.1203": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
     "23.250.1203.0001": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
-    "24": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
+    "24": "HEAD",
     "24.007": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
     "24.007.0109": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
-    "24.007.0109.0001": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8"
+    "24.007.0109.0001": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
+    "24.010": "HEAD",
+    "24.010.0114": "HEAD",
+    "24.010.0114.0001": "HEAD"
   },
   "x86_64-darwin": {
     "23": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
     "23.250": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
     "23.250.1203": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
     "23.250.1203.0001": "4061aaf6fcb5cec7b1bfbf43da1afb16bce89bed",
-    "24": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
+    "24": "HEAD",
     "24.007": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
     "24.007.0109": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
-    "24.007.0109.0001": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8"
+    "24.007.0109.0001": "ffbf45671fa2a2703b0981655dd8739cf4ba22e8",
+    "24.010": "HEAD",
+    "24.010.0114": "HEAD",
+    "24.010.0114.0001": "HEAD"
   }
 }
