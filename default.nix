@@ -1,10 +1,11 @@
 { pkgs ? import <nixpkgs> { }
 , noVersioning ? false
+, noDefaulting ? false
 , ...
 }:
 
 let
-  mkPackages = import ./util/mkPackages.nix { inherit pkgs noVersioning; };
+  mkPackages = import ./util/mkPackages.nix { inherit pkgs noVersioning noDefaulting; };
 in
 
 mkPackages [

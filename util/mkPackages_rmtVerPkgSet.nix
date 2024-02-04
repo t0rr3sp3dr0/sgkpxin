@@ -1,5 +1,4 @@
 { pkgs
-, noVersioning
 , ...
 }:
 
@@ -29,8 +28,8 @@ let
       value = ( pkgsAt rev ).${ name };
     };
 
-  rmtVerSet = package:
-    if ( noVersioning ) then ( [ ] ) else ( pkgs.lib.attrsets.mapAttrsToList ( rmtVer package ) ( versAS package ) );
+  rmtVerPkgSet = package:
+    pkgs.lib.attrsets.mapAttrsToList ( rmtVer package ) ( versAS package );
 in
 
-rmtVerSet
+rmtVerPkgSet

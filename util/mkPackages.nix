@@ -1,22 +1,14 @@
 { pkgs
 , noVersioning
+, noDefaulting
 , ...
 }:
 
 let
-  lclVerSet = import ./mkPackages_lclVerSet.nix { inherit pkgs noVersioning; };
-
-  rmtVerSet = import ./mkPackages_rmtVerSet.nix { inherit pkgs noVersioning; };
-
-  verSet = package:
-    let
-      lcl = lclVerSet package;
-      rmt = rmtVerSet package;
-    in
-      lcl ++ rmt;
+  pkgSet = import ./mkPackages_pkgSet.nix { inherit pkgs noVersioning noDefaulting; };
 
   mkPackages = packages:
-    pkgs.lib.pipe packages [ ( builtins.concatMap verSet ) builtins.listToAttrs ];
+    pkgs.lib.pipe packages [ ( builtins.concatMap pkgSet ) builtins.listToAttrs ];
 in
 
 mkPackages

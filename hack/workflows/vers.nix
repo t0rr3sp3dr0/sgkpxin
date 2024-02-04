@@ -2,7 +2,7 @@ let
   versOf = import ../../util/versOf.nix { };
 
   platOf = package:
-    ( import ../../. { noVersioning = true; } ).${ package }.meta.platforms;
+    ( import ../../. { noVersioning = true; noDefaulting = true; } ).${ package }.meta.platforms;
 
   verElem = ver:
     {
@@ -15,7 +15,7 @@ let
 
   sysElem = package: system:
     let
-      ver = ( import ../../. { pkgs = import <nixpkgs> { inherit system; }; noVersioning = true; } ).${ package }.version;
+      ver = ( import ../../. { pkgs = import <nixpkgs> { inherit system; }; noVersioning = true; noDefaulting = true; } ).${ package }.version;
     in
       {
         name = system;
