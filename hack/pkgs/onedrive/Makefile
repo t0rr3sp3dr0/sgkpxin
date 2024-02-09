@@ -1,5 +1,5 @@
 ALL := onedrive
-all: $(addprefix ../../../pkgs/,$(addsuffix /vars.json,$(ALL)))
+all: $(addprefix ../../../pkgs/microsoft-,$(addsuffix /vars.json,$(ALL)))
 .PHONY: all
 
 ../../../pkgs/%/conf.json:

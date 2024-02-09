@@ -1,6 +1,6 @@
-# ALL := microsoft-365 microsoft-autoupdate onedrive skype visual-studio visual-studio-code
-ALL := company-portal microsoft-defender microsoft-edge/canary microsoft-edge/dev microsoft-edge/beta microsoft-edge/stable microsoft-excel microsoft-office-licensing-helper microsoft-onenote microsoft-outlook microsoft-powerpoint microsoft-remote-desktop microsoft-teams/1 microsoft-teams/2 microsoft-word skype-for-business
-all: $(addprefix ../../../pkgs/,$(addsuffix /vars.json,$(ALL)))
+# ALL := 365 autoupdate onedrive skype visual-studio visual-studio-code
+ALL := company-portal defender edge/canary edge/dev edge/beta edge/stable excel office-licensing-helper onenote outlook powerpoint remote-desktop teams/1 teams/2 word skype-for-business
+all: $(addprefix ../../../pkgs/microsoft-,$(addsuffix /vars.json,$(ALL)))
 .PHONY: all
 
 ../../../pkgs/%/conf.json:

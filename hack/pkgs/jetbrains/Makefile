@@ -1,5 +1,5 @@
-ALL := jetbrains-appcode/rc jetbrains-appcode/release aqua clion datagrip dataspell fleet goland jetbrains-intellij-idea/edu jetbrains-intellij-idea/community jetbrains-intellij-idea/ultimate jetbrains-gateway jetbrains-space jetbrains-toolbox mps phpstorm jetbrains-pycharm/edu jetbrains-pycharm/community jetbrains-pycharm/professional rider rubymine webstorm
-all: $(addprefix ../../../pkgs/,$(addsuffix /vars.json,$(ALL)))
+ALL := appcode/rc appcode/release aqua clion datagrip dataspell fleet goland intellij-idea/edu intellij-idea/community intellij-idea/ultimate gateway space toolbox mps phpstorm pycharm/edu pycharm/community pycharm/professional rider rubymine webstorm
+all: $(addprefix ../../../pkgs/jetbrains-,$(addsuffix /vars.json,$(ALL)))
 .PHONY: all
 
 ../../../pkgs/%/conf.json:
