@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
   pname = "rustrover";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/rustrover/RustRover-${vars.version}${vars.variant}.dmg";
+    url = "https://download-cdn.jetbrains.com/rustrover/RustRover-${vars.buildno}${vars.variant}.dmg";
     hash = vars.hash;
   };
 
