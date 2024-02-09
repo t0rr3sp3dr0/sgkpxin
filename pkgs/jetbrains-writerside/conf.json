@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "code": "WRS",
+    "plat": "macM1",
+    "type": "eap",
+    "~": {
+      "variant": "-aarch64"
+    }
+  },
+  "x86_64-darwin": {
+    "code": "WRS",
+    "plat": "mac",
+    "type": "eap",
+    "~": {
+      "variant": ""
+    }
+  }
+}

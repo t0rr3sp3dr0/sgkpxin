@@ -1,0 +1,18 @@
+{
+  "aarch64-darwin": {
+    "buildno": "241.11109",
+    "hash": "sha256-kyfm+5/Fq3MCm0SmZGL/yCaB+tGwy0iC6WCmq0DNe7U=",
+    "live": "https://download.jetbrains.com/product?code=CLN&platform=macM1&release.type=eap",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=CLN&latest=true&type=eap",
+    "variant": "-aarch64",
+    "version": "2024.1"
+  },
+  "x86_64-darwin": {
+    "buildno": "241.11109",
+    "hash": "sha256-3UyeL2L3QQr0vuuwbU4k6ybdrDEvQe8+qJITwifyeRc=",
+    "live": "https://download.jetbrains.com/product?code=CLN&platform=mac&release.type=eap",
+    "meta": "https://data.services.jetbrains.com/products/releases?code=CLN&latest=true&type=eap",
+    "variant": "",
+    "version": "2024.1"
+  }
+}
