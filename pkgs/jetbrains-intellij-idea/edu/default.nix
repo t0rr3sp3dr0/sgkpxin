@@ -51,7 +51,7 @@ stdenv.mkDerivation rec {
   pname = "intellij-idea-edu";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/idea/ideaIE-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/idea/ideaIE-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

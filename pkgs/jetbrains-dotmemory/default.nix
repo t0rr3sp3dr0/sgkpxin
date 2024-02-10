@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
   pname = "dotmemory";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/resharper/dotUltimate.${vars.version}/JetBrains.dotMemory.macos-${vars.variant}.${vars.version}.dmg";
+    url = "https://download.jetbrains.com/resharper/dotUltimate.${vars.version}/JetBrains.dotMemory.macos-${vars.variant}.${vars.version}.dmg";
     hash = vars.hash;
   };
 

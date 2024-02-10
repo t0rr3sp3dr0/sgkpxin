@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
   pname = "goland";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/go/goland-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/go/goland-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

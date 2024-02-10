@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   pname = "mps";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/mps/${vars.version}/MPS-${vars.version}-macos${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/mps/${vars.version}/MPS-${vars.version}-macos${vars.variant}.dmg";
     hash = vars.hash;
   };
 

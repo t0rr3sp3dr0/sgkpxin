@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
   pname = "webstorm";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/webstorm/WebStorm-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/webstorm/WebStorm-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

@@ -51,7 +51,7 @@ stdenv.mkDerivation rec {
   pname = "jetbrains-space";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/space/jetbrains-space-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/space/jetbrains-space-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

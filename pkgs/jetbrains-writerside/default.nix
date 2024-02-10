@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
   pname = "writerside";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/writerside/writerside-${vars.buildno}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/writerside/writerside-${vars.buildno}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

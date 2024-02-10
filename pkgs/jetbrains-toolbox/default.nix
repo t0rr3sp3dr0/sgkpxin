@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
   pname = "jetbrains-toolbox";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-${vars.buildno}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/toolbox/jetbrains-toolbox-${vars.buildno}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

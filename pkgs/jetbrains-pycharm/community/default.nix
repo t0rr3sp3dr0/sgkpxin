@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   pname = "pycharm-community";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/python/pycharm-community-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/python/pycharm-community-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   pname = "datagrip";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/datagrip/datagrip-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/datagrip/datagrip-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

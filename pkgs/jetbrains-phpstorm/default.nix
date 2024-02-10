@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
   pname = "phpstorm";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/webide/PhpStorm-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/webide/PhpStorm-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

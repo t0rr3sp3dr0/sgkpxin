@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
   pname = "aqua";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/aqua/aqua-${vars.buildno}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/aqua/aqua-${vars.buildno}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

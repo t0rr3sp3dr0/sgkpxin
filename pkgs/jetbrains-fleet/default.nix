@@ -54,7 +54,7 @@ stdenv.mkDerivation rec {
   pname = "fleet";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/fleet/installers/macos_${vars.variant}/Fleet-${vars.version}${if vars.variant == "x64" then "" else "-${vars.variant}"}.dmg";
+    url = "https://download.jetbrains.com/fleet/installers/macos_${vars.variant}/Fleet-${vars.version}${if vars.variant == "x64" then "" else "-${vars.variant}"}.dmg";
     hash = vars.hash;
   };
 

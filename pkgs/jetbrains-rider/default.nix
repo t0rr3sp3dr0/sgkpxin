@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   pname = "rider";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/rider/JetBrains.Rider-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/rider/JetBrains.Rider-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

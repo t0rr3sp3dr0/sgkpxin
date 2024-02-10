@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   pname = "clion";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/cpp/clion_nova/CLion-${vars.buildno}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/cpp/clion_nova/CLion-${vars.buildno}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

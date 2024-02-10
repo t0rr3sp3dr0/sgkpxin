@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
   pname = "rubymine";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/ruby/RubyMine-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/ruby/RubyMine-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

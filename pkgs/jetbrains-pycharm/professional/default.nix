@@ -52,7 +52,7 @@ stdenv.mkDerivation rec {
   pname = "pycharm-professional";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/python/pycharm-professional-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/python/pycharm-professional-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
   pname = "dataspell";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/python/dataspell-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/python/dataspell-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

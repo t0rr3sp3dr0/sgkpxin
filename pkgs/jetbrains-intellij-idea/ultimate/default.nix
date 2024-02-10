@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
   pname = "intellij-idea-ultimate";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/idea/ideaIU-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/idea/ideaIU-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

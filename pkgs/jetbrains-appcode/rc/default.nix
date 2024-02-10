@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
   pname = "appcode";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/objc/AppCode-${vars.version}-RC${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/objc/AppCode-${vars.version}-RC${vars.variant}.dmg";
     hash = vars.hash;
   };
 

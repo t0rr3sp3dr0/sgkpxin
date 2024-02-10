@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
   pname = "dottrace";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/resharper/dotUltimate.${vars.version}/JetBrains.dotTrace.macos-${vars.variant}.${vars.version}.dmg";
+    url = "https://download.jetbrains.com/resharper/dotUltimate.${vars.version}/JetBrains.dotTrace.macos-${vars.variant}.${vars.version}.dmg";
     hash = vars.hash;
   };
 

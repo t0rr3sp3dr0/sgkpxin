@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
   pname = "intellij-idea-community-edition";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/idea/ideaIC-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/idea/ideaIC-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

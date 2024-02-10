@@ -52,7 +52,7 @@ stdenv.mkDerivation rec {
   pname = "jetbrains-gateway";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/idea/gateway/JetBrainsGateway-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 

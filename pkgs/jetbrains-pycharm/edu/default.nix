@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
   pname = "pycharm-edu";
   version = vars.version;
   src = fetchurl {
-    url = "https://download-cdn.jetbrains.com/python/pycharm-edu-${vars.version}${vars.variant}.dmg";
+    url = "https://download.jetbrains.com/python/pycharm-edu-${vars.version}${vars.variant}.dmg";
     hash = vars.hash;
   };
 
