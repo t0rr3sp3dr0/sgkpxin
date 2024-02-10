@@ -70,8 +70,8 @@ stdenv.mkDerivation rec {
 
     mkdir -vp "''${out}/"{'Applications','bin'}
 
-    mv -vf './Writerside.app' "''${out}/Applications"
-    makeWrapper "''${out}/Applications/Writerside.app/Contents/MacOS/writerside" "''${out}/bin/${pname}"
+    mv -vf './Writerside ${version} EAP.app' "''${out}/Applications"
+    makeWrapper "''${out}/Applications/Writerside ${version} EAP.app/Contents/MacOS/writerside" "''${out}/bin/${pname}"
 
     runHook postInstall
   '';

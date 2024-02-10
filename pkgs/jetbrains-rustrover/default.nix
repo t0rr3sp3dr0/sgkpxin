@@ -63,8 +63,8 @@ stdenv.mkDerivation rec {
 
     mkdir -vp "''${out}/"{'Applications','bin'}
 
-    mv -vf './RustRover.app' "''${out}/Applications"
-    makeWrapper "''${out}/Applications/RustRover.app/Contents/MacOS/rustrover" "''${out}/bin/${pname}"
+    mv -vf './RustRover ${version} EAP.app' "''${out}/Applications"
+    makeWrapper "''${out}/Applications/RustRover ${version} EAP.app/Contents/MacOS/rustrover" "''${out}/bin/${pname}"
 
     runHook postInstall
   '';

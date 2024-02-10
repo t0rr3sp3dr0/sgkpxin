@@ -66,8 +66,8 @@ stdenv.mkDerivation rec {
 
     mkdir -vp "''${out}/"{'Applications','bin'}
 
-    mv -vf './CLion.app' "''${out}/Applications"
-    makeWrapper "''${out}/Applications/CLion.app/Contents/MacOS/clion" "''${out}/bin/${pname}"
+    mv -vf './CLion ${version} EAP.app' "''${out}/Applications"
+    makeWrapper "''${out}/Applications/CLion ${version} EAP.app/Contents/MacOS/clion" "''${out}/bin/${pname}"
 
     runHook postInstall
   '';
