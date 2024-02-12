@@ -17,17 +17,25 @@ stdenv.mkDerivation rec {
     makeWrapper
   ];
   meta = with lib; {
-    description = "A cross-platform C and C++ IDE";
+    description = "CLion Nova preview, a faster IDE for C and C++";
     longDescription = ''
-      CLion is a smart cross-platform IDE for developing in C and C++ built on
-      the IntelliJ platform. It brings coding assistance, on-the-fly code
-      analysis with quick-fixes, and safe and automated refactorings to C and
-      C++ developers on all three major platforms (Linux, Windows, and macOS).
-      It fits local and remote development workflows as well as the development
-      of embedded systems.
-
+      CLion Nova is an early preview build of the CLion IDE with the C++
+      language engine coming from ReSharper C++ and JetBrains Rider. The main
+      goal of the preview is to address the long-standing performance and
+      quality issues of CLion.
+      
+      CLion Nova guarantees:
+      - Faster highlighting speeds, especially in the case of incremental code
+      updates.
+      - A more responsive UI.
+      - Faster Find Usages.
+      - Significantly fewer freezes and lags in refactorings.
+      - Faster test indexing.
+      - A unified user experience across all of our C++ tools (CLion, Rider,
+      and ReSharper C++).
+      
       Supported languages and technologies
-      C, C++, Objective-C, Swift, Rust, Python, CMake, Makefile, Gradle
+      C, C++, Python, CMake, Makefile, and Bazel.
     '';
     homepage = "https://blog.jetbrains.com/clion/2023/11/clion-nova/";
     downloadPage = "https://jetbrains.com/clion/download/#section=mac";

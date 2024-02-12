@@ -19,20 +19,21 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "A complete software development platform";
     longDescription = ''
-      A unified platform that covers the entire software development pipeline,
-      from hosting Git repositories, automating CI/CD, publishing packages, and
-      orchestrating cloud dev environments, to managing issues, sharing
-      documents, and communicating in chats - all in one place.
+      Space is a unified platform that covers the entire software development
+      pipeline, from hosting Git repositories, automating CI/CD, publishing
+      packages, and orchestrating cloud dev environments, to managing issues,
+      sharing documents, and communicating in chats - all in one place.
+      
+      Desktop App
+      Use Space chats and receive desktop notifications while working in your
+      browser. Alternatively, you can use the Desktop app instead of the web
+      version, as they provide the same functionality. You'll need to create a
+      Space organization first to start using the Space Desktop app.
       
       IDE integration
-      With the first-class integration with IntelliJ-based IDEs, you can perform
-      advanced Space code reviews, clone your Git repositories hosted in Space,
-      and track your automation job's progress - all in your IDE.
-      
-      The Toolbox App integration
-      By connecting your Space account, your favorite Space projects will be
-      listed in the Toolbox App, which you can easily open in your IDE of
-      choice.
+      With the first-class integration with IntelliJ-based IDEs, you can
+      perform advanced Space code reviews, clone your Git repositories hosted
+      in Space, and track your automation job's progress all in your IDE.
     '';
     homepage = "https://jetbrains.com/help/space/space-desktop-app.html";
     downloadPage = "https://jetbrains.com/help/space/space-desktop-app.html#to-install-the-desktop-app";

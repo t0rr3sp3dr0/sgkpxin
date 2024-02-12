@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       integration, and more.
       
       Supported languages and technologies
-      Python, Cython, Jupyter, HTML, Git, GitHub, Mercurial, Subversion, Conda
+      Python, Cython, Jupyter, HTML, Git, GitHub, Mercurial, Subversion, conda
       integration
     '';
     homepage = "https://jetbrains.com/pycharm/";

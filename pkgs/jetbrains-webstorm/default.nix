@@ -17,16 +17,18 @@ stdenv.mkDerivation rec {
     makeWrapper
   ];
   meta = with lib; {
-    description = "A JavaScript IDE";
+    description = "A JavaScript and TypeScript IDE";
     longDescription = ''
-      WebStorm is an integrated development environment for JavaScript and its
-      related technologies. Just like other JetBrains IDEs, WebStorm makes your
-      development experience more enjoyable, automating routine work and helping
-      you handle complex tasks with ease.
+      WebStorm is an integrated development environment (IDE) by JetBrains. It
+      includes everything you need for JavaScript and TypeScript development and
+      lets you get straight to coding. WebStorm also makes it easy to tackle the
+      most challenging tasks. Whether you're resolving Git merge conflicts or
+      renaming a symbol across multiple files, it takes just a few clicks.
       
       Supported languages and technologies
-      JavaScript, TypeScript, Vue, React, Angular, Node.js, React Native,
-      Electron, HTML, CSS, Tailwind CSS, Jest, Git, GitHub, and more
+      JavaScript, TypeScript, HTML, Markdown, CSS, Node.js, Vue, React, Angular,
+      Svelte, Tailwind CSS, React Native, Electron, Astro, Jest, Vitest,
+      Prettier, ESLint, Git, GitHub, and more
     '';
     homepage = "https://jetbrains.com/webstorm/";
     downloadPage = "https://jetbrains.com/webstorm/download/#section=mac";

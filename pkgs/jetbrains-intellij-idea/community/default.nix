@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     makeWrapper
   ];
   meta = with lib; {
-    description = "The IDE for pure Java and Kotlin development";
+    description = "The IDE for Java and Kotlin enthusiasts";
     longDescription = ''
       Free and built using open source code, IntelliJ IDEA Community Edition
       provides all of the essential features for productive Java and Kotlin

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     makeWrapper
   ];
   meta = with lib; {
-    description = "An IDE for data scientists";
+    description = "The IDE for data analysis";
     longDescription = ''
       DataSpell is an IDE for data scientists. It offers a productive developer
       environment for data science professionals who are actively involved in
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       support. At the same time it offers intelligent coding assistance for
       Python and tons of other tools, all integrated seamlessly under a unified
       user interface.
-
+      
       Supported languages and technologies
       Python, Jupyter, R, SQL, Matplotlib, Plotly, Bokeh, TensorFlow, PyTorch,
       Conda, CSV, Parquet
