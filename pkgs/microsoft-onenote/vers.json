@@ -1,0 +1,12 @@
+{
+  "aarch64-darwin": {
+    "16": "8ae9da37ce2347dfee4fbf340a6ee3a4aa9ae06d",
+    "16.81": "8ae9da37ce2347dfee4fbf340a6ee3a4aa9ae06d",
+    "16.81.24011420": "8ae9da37ce2347dfee4fbf340a6ee3a4aa9ae06d"
+  },
+  "x86_64-darwin": {
+    "16": "8ae9da37ce2347dfee4fbf340a6ee3a4aa9ae06d",
+    "16.81": "8ae9da37ce2347dfee4fbf340a6ee3a4aa9ae06d",
+    "16.81.24011420": "8ae9da37ce2347dfee4fbf340a6ee3a4aa9ae06d"
+  }
+}
