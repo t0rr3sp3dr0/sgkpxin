@@ -1,15 +1,15 @@
 {
   "aarch64-darwin": {
-    "buildno": "233.14015.147",
-    "hash": "sha256-8LRiIn7g26LRTMTqK96CFqdeChRb4vrEuSL8vggjACI=",
+    "buildno": "233.14015.152",
+    "hash": "sha256-WY5X0ILbBfzDjS7uXTB+OpwJEsCoxB4dTWobgHbCXCQ=",
     "live": "https://download.jetbrains.com/product?code=RR&platform=macM1&release.type=eap",
     "meta": "https://data.services.jetbrains.com/products/releases?code=RR&latest=true&type=eap",
     "variant": "-aarch64",
     "version": "2023.3"
   },
   "x86_64-darwin": {
-    "buildno": "233.14015.147",
-    "hash": "sha256-79vKwYjnG+sO18v2qYbXfTcmk8oEgcqtzwJiDzHwcqk=",
+    "buildno": "233.14015.152",
+    "hash": "sha256-xsF8AXsgJAEVCqVKcn8+popISOltafR+onbtaL5oLUU=",
     "live": "https://download.jetbrains.com/product?code=RR&platform=mac&release.type=eap",
     "meta": "https://data.services.jetbrains.com/products/releases?code=RR&latest=true&type=eap",
     "variant": "",
