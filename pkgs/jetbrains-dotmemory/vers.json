@@ -1,0 +1,12 @@
+{
+  "aarch64-darwin": {
+    "2023": "b4bf8b9c41804c1ceeaaf687f1a38e5e1ab14ab5",
+    "2023.3": "b4bf8b9c41804c1ceeaaf687f1a38e5e1ab14ab5",
+    "2023.3.4": "b4bf8b9c41804c1ceeaaf687f1a38e5e1ab14ab5"
+  },
+  "x86_64-darwin": {
+    "2023": "b4bf8b9c41804c1ceeaaf687f1a38e5e1ab14ab5",
+    "2023.3": "b4bf8b9c41804c1ceeaaf687f1a38e5e1ab14ab5",
+    "2023.3.4": "b4bf8b9c41804c1ceeaaf687f1a38e5e1ab14ab5"
+  }
+}
