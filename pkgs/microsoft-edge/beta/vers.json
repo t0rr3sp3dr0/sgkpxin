@@ -1,14 +1,14 @@
 {
   "aarch64-darwin": {
-    "124": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8",
-    "124.0": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8",
-    "124.0.2478": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8",
-    "124.0.2478.10": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8"
+    "124": "377476dd95cc15168104135825d50cf59e7cbaf5",
+    "124.0": "377476dd95cc15168104135825d50cf59e7cbaf5",
+    "124.0.2478": "377476dd95cc15168104135825d50cf59e7cbaf5",
+    "124.0.2478.19": "377476dd95cc15168104135825d50cf59e7cbaf5"
   },
   "x86_64-darwin": {
-    "124": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8",
-    "124.0": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8",
-    "124.0.2478": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8",
-    "124.0.2478.10": "ebb4dcfdc03f5dd3fc2fe5b7b24dfc705c632bc8"
+    "124": "377476dd95cc15168104135825d50cf59e7cbaf5",
+    "124.0": "377476dd95cc15168104135825d50cf59e7cbaf5",
+    "124.0.2478": "377476dd95cc15168104135825d50cf59e7cbaf5",
+    "124.0.2478.19": "377476dd95cc15168104135825d50cf59e7cbaf5"
   }
 }
