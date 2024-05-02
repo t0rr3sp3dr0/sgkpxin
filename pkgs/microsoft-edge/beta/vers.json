@@ -1,14 +1,14 @@
 {
   "aarch64-darwin": {
-    "125": "07960e7f4f6d68cac140e8957301953f800a8d07",
-    "125.0": "07960e7f4f6d68cac140e8957301953f800a8d07",
-    "125.0.2535": "07960e7f4f6d68cac140e8957301953f800a8d07",
-    "125.0.2535.13": "07960e7f4f6d68cac140e8957301953f800a8d07"
+    "124": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3",
+    "124.0": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3",
+    "124.0.2478": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3",
+    "124.0.2478.72": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3"
   },
   "x86_64-darwin": {
-    "125": "07960e7f4f6d68cac140e8957301953f800a8d07",
-    "125.0": "07960e7f4f6d68cac140e8957301953f800a8d07",
-    "125.0.2535": "07960e7f4f6d68cac140e8957301953f800a8d07",
-    "125.0.2535.13": "07960e7f4f6d68cac140e8957301953f800a8d07"
+    "124": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3",
+    "124.0": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3",
+    "124.0.2478": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3",
+    "124.0.2478.72": "849cb69aa5cdaa7c2ba5fdfda5adc73ed4bcc1f3"
   }
 }
