@@ -37,7 +37,7 @@ jobs:
           make -C ./hack/workflows/ arch.json
           echo "json=$(cat ./hack/workflows/arch.json)" >> "${GITHUB_OUTPUT}"
   main:
-    runs-on: macos-latest
+    runs-on: macos-${{ matrix.arch == 'x86_64' && '13' || '14' }}
     needs: matrix
     strategy:
       fail-fast: false
