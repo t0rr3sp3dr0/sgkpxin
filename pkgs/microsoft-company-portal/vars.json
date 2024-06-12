@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-CQiCw600FWjGgF9NnG3qS+YCPqTgSj4Du8+Q/F4oIEA=",
+    "hash": "sha256-QwUDqTtUp31G8VrKH9pt2Nsm3oQAxXlNB18zty+wXe0=",
     "live": "https://go.microsoft.com/fwlink/?linkid=869655",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409IMCP01.xml",
-    "version": "5.2404.0"
+    "version": "5.2406.0"
   }
 }
