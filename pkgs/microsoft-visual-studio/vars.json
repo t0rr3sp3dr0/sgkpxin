@@ -1,20 +1,20 @@
 {
   "aarch64-darwin": {
-    "guid": "b0a7e7510b55c11fc3daa88843723315",
-    "hash": "sha256-yWA8z7v+Y9E23YXcLlFUj0Q7Aqh62kKbsJ2z26o8v8M=",
+    "guid": "60bf4fe63620e88714aef690ec794226",
+    "hash": "sha256-pyAyfBCKlpoYysf/+E3MvyCRdpfo7Tt/2cmNuYCtBe0=",
     "live": "about:blank#unknown-link",
     "meta": "https://aka.ms/vsmac/manifest/17-stable",
-    "uuid": "f96671c7-42c3-434d-85e7-87c23a8044ba",
+    "uuid": "154dca6a-af92-456d-8874-9c7c27f0bd21",
     "variant": "arm64",
-    "version": "17.6.13.424"
+    "version": "17.6.14.413"
   },
   "x86_64-darwin": {
-    "guid": "67c53d687d271392da1462fc7f3a9704",
-    "hash": "sha256-7bUuIqhO7Yumu+ohxcw0d0TBMuS0XbBjPKKoF1Uan9U=",
+    "guid": "a8ec8eabbf59bf8f909b7c5034702558",
+    "hash": "sha256-Vgt8iDIZlYKk23q5fzKUYD8bb/xhj1Yrsuuy5rgTMvc=",
     "live": "about:blank#unknown-link",
     "meta": "https://aka.ms/vsmac/manifest/17-stable",
-    "uuid": "f96671c7-42c3-434d-85e7-87c23a8044ba",
+    "uuid": "154dca6a-af92-456d-8874-9c7c27f0bd21",
     "variant": "x64",
-    "version": "17.6.13.424"
+    "version": "17.6.14.413"
   }
 }
