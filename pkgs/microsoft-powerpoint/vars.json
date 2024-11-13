@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-IfrlIltwlEvXPD4NUNjmplt7JWuxgf+gvt2nR1uopzs=",
+    "hash": "sha256-XfiiFOo6XfT8tQXXcr7PD9wPyvCxaNhOv/3/FX3gUTg=",
     "live": "https://go.microsoft.com/fwlink/?linkid=525136",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409PPT32019.xml",
-    "version": "16.90.24102719"
+    "version": "16.91.24111020"
   }
 }
