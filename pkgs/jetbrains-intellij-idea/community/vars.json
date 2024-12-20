@@ -1,18 +1,18 @@
 {
   "aarch64-darwin": {
-    "buildno": "243.22562.145",
-    "hash": "sha256-7wawserzpMItvf2o0aKhSlNPf41sSLb8smvyCHBiJms=",
+    "buildno": "243.22562.218",
+    "hash": "sha256-6owFAwjEbidgVRk9iC2qbZZfMyVqRHwF1a2fIrVOXRQ=",
     "live": "https://download.jetbrains.com/product?code=IIC&platform=macM1&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
     "variant": "-aarch64",
-    "version": "2024.3.1"
+    "version": "2024.3.1.1"
   },
   "x86_64-darwin": {
-    "buildno": "243.22562.145",
-    "hash": "sha256-BCnkk3RwY7pl0nAPVGof8IxTcWlJm5y5V/PHHFgP59o=",
+    "buildno": "243.22562.218",
+    "hash": "sha256-UF2XiifQaRp62AcMAF50uxOGL7uIC3Wukkqk9FWAR6A=",
     "live": "https://download.jetbrains.com/product?code=IIC&platform=mac&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
     "variant": "",
-    "version": "2024.3.1"
+    "version": "2024.3.1.1"
   }
 }
