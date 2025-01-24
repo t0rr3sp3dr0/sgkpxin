@@ -1,18 +1,18 @@
 {
   "aarch64-darwin": {
-    "buildno": "243.22562.252",
-    "hash": "sha256-9P8ITUBU9107EBELKrrd7LrDAgTYDDnct6WSXyJ4xBo=",
+    "buildno": "243.23654.132",
+    "hash": "sha256-qKNuJc8BGUEVY0S8a29/a23o5pBaKtDD2BBt2mtANC8=",
     "live": "https://download.jetbrains.com/product?code=GW&platform=macM1&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=GW&latest=true&type=release",
     "variant": "-aarch64",
-    "version": "2024.3.1.1"
+    "version": "2024.3.2"
   },
   "x86_64-darwin": {
-    "buildno": "243.22562.252",
-    "hash": "sha256-8xliooTsaOF11vVnjA5P4zwJSFFPkmc7t5ibOMNiKVE=",
+    "buildno": "243.23654.132",
+    "hash": "sha256-bD5NC7e5PlIr5ZwAJDWJ5XHXV1rnFnj6gHZF6gCp3K4=",
     "live": "https://download.jetbrains.com/product?code=GW&platform=mac&release.type=release",
     "meta": "https://data.services.jetbrains.com/products/releases?code=GW&latest=true&type=release",
     "variant": "",
-    "version": "2024.3.1.1"
+    "version": "2024.3.2"
   }
 }
