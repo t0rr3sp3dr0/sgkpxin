@@ -1,9 +1,9 @@
 {
   "universal-darwin": {
     "guid": "C1297A47-86C4-4C1F-97FA-950631F94777",
-    "hash": "sha256-zUzCXgtNJAN+QUIm4gEXblvl01DU01vnP8Ux8RvHrSo=",
+    "hash": "sha256-sKbdW1zRqQ1ucAamB/hzsLUSzCtEHLeaQ/E+Rk+2eQw=",
     "live": "https://go.microsoft.com/fwlink/?linkid=869428",
     "meta": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409TEAMS10.xml",
-    "version": "1.6.00.27656"
+    "version": "25007.207.3396.1311"
   }
 }
